@@ -1,0 +1,227 @@
+{
+    "[html]": {
+      "editor.defaultFormatter": "vscode.html-language-features"
+    },
+    "editor.unicodeHighlight.nonBasicASCII": false,
+    "[json]": {
+      "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "workbench.colorTheme": "Actual Xcode Dark Theme",
+    "editor.fontFamily": "SFMono-Medium",
+    "editor.guides.indentation": false,
+    "editor.semanticTokenColorCustomizations": {
+      "[*Dark*]": {
+        "rules": {
+          "function": {
+            "foreground": "#78C2B3"
+          },
+          "variable": {
+            "foreground": "#4FB0CB"
+          }
+        }
+      },
+      "[*Light*]": {
+        "rules": {
+          "variable:swift": {
+            "foreground": "#057CAF"
+          }
+        }
+      }
+    },
+    "workbench.colorCustomizations": {
+      "[*Dark*]": {
+        "editor.background": "#292A2F",
+        "editor.selectionBackground": "#515B70",
+        "editor.lineHighlightBackground": "#2F3139",
+        "editorCursor.foreground": "#0A60FF",
+        "terminalCursor.foreground": "#0A60FF",
+        "editorGutter.addedBackground": "#2C7AFF",
+        "editorGutter.deletedBackground": "#2C7AFF",
+        "editorGutter.modifiedBackground": "#2C7AFF",
+        "panel.background": "#211e21",
+        "panel.border": "#000000",
+        "panelSection.border": "#000000",
+        "panelSectionHeader.background": "#292227",
+        "statusBar.foreground": "#9C9C9B",
+        "statusBar.background": "#22242C",
+        "titleBar.activeBackground": "#383A40",
+        "titleBar.inactiveBackground": "#383A40",
+        "titleBar.activeForeground": "#B8B8B6",
+        "titleBar.inactiveForeground": "#6C6C69",
+        "editorGroupHeader.tabsBackground": "#22242D",
+        "tab.activeBackground": "#335274",
+        "tab.activeForeground": "#FFFFFF",
+        "tab.unfocusedInactiveForeground": "#22242D",
+        "tab.inactiveBackground": "#22242D",
+        "tab.inactiveForeground": "#FFFFFF",
+        "breadcrumb.background": "#22242D",
+        "gitDecoration.modifiedResourceForeground": "#FFFFFF",
+        "gitDecoration.addedResourceForeground": "#FFFFFF",
+        "gitDecoration.deletedResourceForeground": "#FFFFFF",
+        "gitDecoration.untrackedResourceForeground": "#FFFFFF",
+        "gitDecoration.ignoredResourceForeground": "#FFFFFF",
+        "gitDecoration.conflictingResourceForeground": "#FFFFFF",
+        "gitDecoration.submoduleResourceForeground": "#FFFFFF"
+      },
+      "[*Light*]": {
+        "editor.background": "#FFFFFF",
+        "editor.selectionBackground": "#A4CDFF",
+        "editor.lineHighlightBackground": "#ECF5FF",
+        "editorCursor.foreground": "#0A60FF",
+        "terminalCursor.foreground": "#007AFF",
+        "editorGutter.addedBackground": "#9CC4FF",
+        "editorGutter.deletedBackground": "#9CC4FF",
+        "editorGutter.modifiedBackground": "#9CC4FF",
+        "terminal.background": "#FFFFFF",
+        "statusBar.foreground": "#808080",
+        "statusBar.background": "#FFFFFF",
+        "titleBar.activeBackground": "#F3F3F2",
+        "titleBar.inactiveBackground": "#E5E5E4",
+        "titleBar.activeForeground": "#676766",
+        "titleBar.inactiveForeground": "#A7A7A6",
+        "activityBarBadge.background": "#007AFF",
+        "activityBar.background": "#E7E7E6",
+        "activityBar.inactiveForeground": "#141C13",
+        "activityBar.foreground": "#141C13",
+        "statusBarItem.remoteBackground": "#007AFF",
+        "editorGroupHeader.tabsBackground": "#ffffff",
+        "tab.activeBackground": "#D2E7FF",
+        "tab.activeForeground": "#047AFF",
+        "tab.inactiveBackground": "#FFFFFF",
+        "tab.inactiveForeground": "#000000",
+        "gitDecoration.modifiedResourceForeground": "#000000",
+        "gitDecoration.addedResourceForeground": "#000000",
+        "gitDecoration.deletedResourceForeground": "#000000",
+        "gitDecoration.untrackedResourceForeground": "#000000",
+        "gitDecoration.ignoredResourceForeground": "#000000",
+        "gitDecoration.conflictingResourceForeground": "#000000",
+        "gitDecoration.submoduleResourceForeground": "#000000"
+      }
+    },
+    "editor.minimap.enabled": false,
+    "editor.renderLineHighlight": "all",
+    "scm.diffDecorations": "gutter",
+    "editor.bracketPairColorization.enabled": false,
+    "editor.tokenColorCustomizations": {
+      "[*Light*]": {
+        "textMateRules": [
+          {
+            "name": "plainComments",
+            "scope": "comment",
+            "settings": {
+              "fontStyle": ""
+            }
+          }
+        ]
+      },
+      "[*Dark*]": {
+        "textMateRules": [
+          {
+            "name": "plainComments",
+            "scope": "comment",
+            "settings": {
+              "fontStyle": ""
+            }
+          }
+        ]
+      }
+    },
+    "apc.header": {
+      "height": 30
+    },
+    "apc.sidebar.titlebar": {
+      "height": 32
+    },
+    "window.titleBarStyle": "custom",
+    "apc.electron": {
+      "frame": false,
+      "titleBarStyle": "hiddenInset",
+      "backgroundColor": "#00000050",
+      "vibrancy": "sidebar",
+      "visualEffectState": "active"
+    },
+    "apc.stylesheet": {
+      ".monaco-workbench .part.sidebar.left": "background-color: rgba(245, 245, 245, 0.00) !important; padding-horizontal: 10px; @media (prefers-color-scheme: dark) { background-color: #2d2d2d00 !important; }",
+      ".monaco-workbench .titlebar": "width: calc(100% - 294px) !important; padding-top: 4px; margin-left: 294px !important; border-left: 1px solid #E5E5E5; @media (prefers-color-scheme: dark) { border-left: 1px solid #000;}",
+      ".sticky-widget": "width: 100% !important; background-color: #F0EFF370 !important; padding-horizontal: 10px; backdrop-filter: blur(50px); outline: 1px solid #E5E5E5; @media (prefers-color-scheme: dark) { background-color: #30303770 !important; box-shadow: #000000 0 4px 2px -2px; outline: 1px solid #383A42;}",
+      ".sticky-line-content": "width: 100% !important; border-bottom: 1px solid #E5E5E5; @media (prefers-color-scheme: dark) { border-bottom: 1px solid #444249; }",
+      ".sticky-line-number": "width: 100% !important; border-bottom: 1px solid #E5E5E5; @media (prefers-color-scheme: dark) { border-bottom: 1px solid #444249; }",
+      ".monaco-workbench .part.auxiliarybar": "background-color: #F2F2F2 !important; padding-horizontal: 10px; @media (prefers-color-scheme: dark) { background-color: #404045 !important; }",
+      ".activitybar": "background-color: rgba(245, 245, 245, 0.0) !important; outline: 0px solid #B5BAB2; @media (prefers-color-scheme: dark) { outline: 0px solid rgba(255, 255, 255, 0.1); background-color: #2d2d2d00 !important; }",
+      ".breadcrumbs-below-tabs": "border-bottom: 1px solid #E5E5E5; padding: 2.5px 0px 2.5px 0px; font-size: 8.5pt; @media (prefers-color-scheme: dark) { border-bottom: 1px solid #383A42; }",
+      ".monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab .tab-label a, .monaco-workbench .part.editor>.content .editor-group-container>.title .title-label a": "font-size: 8.5pt;",
+      ".monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab .tab-label": "font-size: 8.5pt;",
+      ".show-file-icons .file-icon::before, .show-file-icons .folder-icon::before, .show-file-icons .rootfolder-icon::before": "font-size: 190%; margin-right: 1px;",
+      "monaco-tl-twistie": "padding-left: 0px !important;",
+      ".statusbar": "outline: 1px solid #E5E5E5; font-weight: 500; @media (prefers-color-scheme: dark) { outline: 1px solid rgba(0, 0, 0, 1); }",
+      ".monaco-breadcrumb": "background: #000000 !important;",
+      ".sidebar #status\\.host": "border-radius: 36px;",
+      ".inline-titlebar-placeholder": "padding-right: 8px;",
+      ".mac.nosidebar:not(.sidebar-right):not(.fullscreen) .inline-tabs-placeholder": "padding-left: calc(var(--traffic-X) + 8px)",
+      ".statusbar #status\\.host": "display: block; !important; width: calc(var(--activity-bar-action-size)px); height: 18px; margin: 6px; border-radius: 30px",
+      ".tabs-and-actions-container": "border-bottom: 1px solid #E5E5E5; border-top: 3px solid #F3F3F2; @media (prefers-color-scheme: dark) { border-bottom: 1px solid #383A42; border-top: 3px solid #383A40; }",
+      ".monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container": "width: 100% !important; border-top: 1px solid #E5E5E5; @media (prefers-color-scheme: dark) { border-top: 1px solid #000; }",
+      ".tab": "outline: 1px solid #E5E5E5; @media (prefers-color-scheme: dark) { outline: 1px solid #383836; }",
+      ".terminal": "padding-bottom: 4.5%;",
+      ".monaco-dialog-modal-block": "border-radius:6px;",
+      ".monaco-text-button": "border-radius:6px;",
+      ".monaco-inputbox": "border-radius:6px",
+      ".suggest-input-container": "border-radius: 6px;",
+      ".editor-widget": "border-radius:8px !important;",
+      ".editor-widget>.monaco-sash": "display: none;",
+      ".monaco-hover": "border-radius: 6px !important;",
+      ".scrollbar.horizontal": "height:6px !important",
+      ".vertical>.slider": "width:6px !important",
+      ".slider": "border-radius:6px;",
+      ".quick-input-widget": {
+        "box-shadow": " 0 20px 100px rgba(0, 0, 0, 0.4) !important; ",
+        "border-radius": "13px !important; ",
+        "padding": " 10px 15px 0px 15px; ",
+        "margin-top": " 15%; ",
+        "border": " 1px solid rgba(128, 128, 128, 0.5) !important;"
+      },
+      ".quick-input-header": "margin-bottom: 10px",
+      ".suggest-widget": "box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);",
+      ".suggest-details": "box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);",
+      ".monaco-editor .margin .line-numbers": "font-family: 'Xcode Digits' !important;",
+      ".monaco-workbench .part.sidebar .title": "margin-top: 3px; border-bottom: 1px solid #00000015; border-top: 1px solid #00000015; @media (prefers-color-scheme: dark) { border-bottom: 1px solid rgba(255, 255, 255, 0.1); border-top: 1px solid rgba(255, 255, 255, 0.1); }",
+      ".monaco-workbench .explorer-viewlet .monaco-list .monaco-list-row.focused.selected": "background-color: #00000020 !important; color: #000000 !important; width: calc(100% - 20px) !important; box-sizing: border-box; align-items: center; border-radius: 5px !important; @media (prefers-color-scheme: dark) { background-color: #FFFFFF20 !important; color: #FFFFFF !important; }",
+      ".monaco-workbench .explorer-viewlet .monaco-list .monaco-list-row.focused": "background-color: #1455B8 !important; color: #ffffff !important; margin-left: 10px !important; width: calc(100% - 20px) !important; border-radius: 5px !important;",
+      ".monaco-workbench .explorer-viewlet .monaco-list .monaco-list-row:hover": "background-color: #00000000 !important;",
+      ".monaco-workbench .explorer-viewlet .monaco-list .monaco-list-row": "padding-left: 10px !important; padding-right: 10px !important;",
+      ".monaco-workbench .explorer-viewlet": "padding-top: 9px;"
+    },
+    "apc.activityBar": {
+      "size": 30,
+      "position": "bottom"
+    },
+    "apc.statusBar": {
+      "position": "editor",
+      "height": 30,
+      "fontSize": 10
+    },
+    "workbench.settings.applyToAllProfiles": [
+    
+    "workbench.colorCustomizations"],
+    "git.decorations.enabled": true,
+    "workbench.tree.renderIndentGuides": "none",
+    "workbench.preferredLightColorTheme": "Xcode Default (Light)",
+    "workbench.preferredDarkColorTheme": "Actual Xcode Dark Theme",
+    "workbench.preferredHighContrastLightColorTheme": "Actual Xcode Light Theme",
+    "workbench.editor.decorations.colors": false,
+    "editor.wordWrap": "on",
+    "security.workspace.trust.untrustedFiles": "open",
+    "files.insertFinalNewline": true,
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.cursorBlinking": true,
+    "terminal.integrated.cursorStyleInactive": "line",
+    "terminal.integrated.cursorWidth": 2,
+    "terminal.integrated.lineHeight": 1.35,
+    "workbench.tree.indent": 15,
+  "workbench.iconTheme": "material-icon-theme",
+  "material-icon-theme.folders.color": "#42a5f5",
+  "files.autoSave": "afterDelay",
+  "update.mode": "none",
+  "window.autoDetectColorScheme": true
+  }
+  
