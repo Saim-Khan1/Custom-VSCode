@@ -11,11 +11,14 @@ This works on Visual Studio Code version `1.93.1`; everything bar sidebar transp
 This is used to enable custom CSS styling and the material on the sidebar.
 
 ### 2. Copy over `settings.json`
-This file contains all the customisations, including custom CSS styling and other editor properties.
+This file contains all the customisations, including custom CSS styling and other editor properties. Open Settings, click on the `Open Settings (JSON)` button (page icon with an arrow) near the top right, and paste in the contents of the `settings.json` file in this repo.
 
 ### 3. Install [Actual Xcode Theme](https://marketplace.visualstudio.com/items?itemName=telmen.actual-xcode-theme) (Dark) and [Xcode Default Theme](https://marketplace.visualstudio.com/items?itemName=smockle.xcode-default-theme) (Light) and set themes
 There are some slightly modified versions of these themes in this repo, feel free to drag these into `~/.vscode/extensions` to update the existing folders.
 Also be sure to set your VSCode theme mode to `Auto` in Settings if you want your VSCode theme to match the device appearance.
 
-### 4. (Optional) Add fonts
-You may wish to use SF Mono Medium and Xcode Digits (located in `/Applications/Xcode.app/Contents/SharedFrameworks/DVTUserInterfaceKit.framework/Versions/A/Resources/Fonts` on macOS). Set `SFMono-Medium` under `Editor: Font Family` in Settings, and simply dragging the Xcode Digits font into your device's fonts folder will have it show up in VSCode (the CSS is there for it already).
+### 4. Install [Material Icons](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
+Adds a nicer set of icons to files and folders in the sidebar, and in tabs.
+
+### 5. (Optional) Add fonts
+You may wish to use 'SF Mono Medium' and 'Xcode Digits' (located in `/Applications/Xcode.app/Contents/SharedFrameworks/DVTUserInterfaceKit.framework/Versions/A/Resources/Fonts` on macOS). Set `SFMono-Medium` under `Editor: Font Family` in Settings, and simply dragging the Xcode Digits font into your device's fonts folder will have it show up in VSCode (the CSS is there for it already).
