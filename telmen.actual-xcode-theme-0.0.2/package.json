@@ -1,0 +1,44 @@
+{
+	"name": "actual-xcode-theme",
+	"displayName": "Actual Xcode Theme",
+	"description": "Xcode Default themes",
+	"version": "0.0.2",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/telmen/vscode-xcode-theme"
+	},
+	"publisher": "telmen",
+	"engines": {
+		"vscode": "^1.43.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Actual Xcode Light Theme",
+				"uiTheme": "vs-light",
+				"path": "./themes/Actual Xcode Light Theme-color-theme.json"
+			},
+			{
+				"label": "Actual Xcode Dark Theme",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Actual Xcode Dark Theme-color-theme.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "797c0bad-b704-48b2-b761-a051595a9907",
+		"publisherDisplayName": "telmen",
+		"publisherId": "6fa60fab-3133-4a03-985d-d079eb05e177",
+		"targetPlatform": "undefined",
+		"isApplicationScoped": false,
+		"isPreReleaseVersion": false,
+		"hasPreReleaseVersion": false,
+		"installedTimestamp": 1723946873492,
+		"pinned": false,
+		"preRelease": false,
+		"source": "gallery"
+	}
+}

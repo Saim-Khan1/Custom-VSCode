@@ -1,0 +1,58 @@
+{
+	"name": "xcode-default-theme",
+	"displayName": "Xcode Default Theme",
+	"description": "Brings the colors of the Xcode 'Default (Dark)' and 'Default (Light)' themes to Visual Studio Code",
+	"categories": [
+		"Themes"
+	],
+	"version": "2.0.24",
+	"publisher": "smockle",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/smockle/xcode-default-theme.git"
+	},
+	"engines": {
+		"vscode": "*"
+	},
+	"contributes": {
+		"themes": [
+			{
+				"id": "Xcode Default (Dark)",
+				"label": "Xcode Default (Dark)",
+				"uiTheme": "vs-dark",
+				"path": "./xcode-default-dark-theme.json"
+			},
+			{
+				"id": "Xcode Default (Light)",
+				"label": "Xcode Default (Light)",
+				"uiTheme": "vs",
+				"path": "./xcode-default-light-theme.json"
+			},
+			{
+				"id": "Xcode Partial (Dark)",
+				"label": "Xcode Partial (Dark)",
+				"uiTheme": "vs-dark",
+				"path": "./xcode-partial-dark-theme.json"
+			},
+			{
+				"id": "Xcode Partial (Light)",
+				"label": "Xcode Partial (Light)",
+				"uiTheme": "vs",
+				"path": "./xcode-partial-light-theme.json"
+			}
+		]
+	},
+	"__metadata": {
+		"id": "0e4f50c8-76f1-4e2a-a177-2418b5f5a847",
+		"publisherId": "bd76c9e1-e8b7-440b-a6f2-3f17826dc424",
+		"publisherDisplayName": "smockle",
+		"targetPlatform": "undefined",
+		"isApplicationScoped": false,
+		"isPreReleaseVersion": false,
+		"hasPreReleaseVersion": false,
+		"installedTimestamp": 1723947068081,
+		"pinned": false,
+		"preRelease": false,
+		"source": "gallery"
+	}
+}
